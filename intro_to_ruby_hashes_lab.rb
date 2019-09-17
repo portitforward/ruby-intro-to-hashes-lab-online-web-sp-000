@@ -44,7 +44,7 @@ def monopoly
 end
 
 def monopoly_with_second_tier
-	monopoly =  {
+  return	monopoly =  {
   :railroads=>
   {
     :pieces=>4,
@@ -75,8 +75,6 @@ def monopoly_with_second_tier
       }
     }
   }}
-  
-
 end
 
 def monopoly_with_third_tier
